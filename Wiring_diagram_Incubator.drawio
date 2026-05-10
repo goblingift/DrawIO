@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="eEFIP_kuCxWWcJ878fAI">
-    <mxGraphModel dx="1174" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1712" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,8 +175,14 @@
         <mxCell id="HEKw0fj0yyuxXM4w6teh-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="I2C" vertex="1">
           <mxGeometry height="30" width="20" x="551" y="530" as="geometry" />
         </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-37" edge="1" parent="1" source="HEKw0fj0yyuxXM4w6teh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="HEKw0fj0yyuxXM4w6teh-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HEKw0fj0yyuxXM4w6teh-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="I2C" vertex="1">
           <mxGeometry height="30" width="20" x="580" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-35" edge="1" parent="1" source="HEKw0fj0yyuxXM4w6teh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="HEKw0fj0yyuxXM4w6teh-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HEKw0fj0yyuxXM4w6teh-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="I2C" vertex="1">
           <mxGeometry height="30" width="20" x="610" y="530" as="geometry" />
@@ -203,7 +209,7 @@
           <mxGeometry height="40" width="80" x="690" y="610" as="geometry" />
         </mxCell>
         <mxCell id="HEKw0fj0yyuxXM4w6teh-25" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="60" width="130" x="270" y="670" as="geometry" />
+          <mxGeometry height="60" width="130" x="340" y="500" as="geometry" />
         </mxCell>
         <mxCell id="HEKw0fj0yyuxXM4w6teh-15" parent="HEKw0fj0yyuxXM4w6teh-25" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ebebeb, #ededed);" value="" vertex="1">
           <mxGeometry height="40" width="130" as="geometry" />
@@ -222,6 +228,30 @@
         </mxCell>
         <mxCell id="HEKw0fj0yyuxXM4w6teh-24" parent="HEKw0fj0yyuxXM4w6teh-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Grove 4-port I2C hub" vertex="1">
           <mxGeometry height="20" width="115" x="7.5" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-34" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="130" x="555" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-28" parent="HEKw0fj0yyuxXM4w6teh-34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ebebeb, #ededed);" value="" vertex="1">
+          <mxGeometry height="40" width="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-29" parent="HEKw0fj0yyuxXM4w6teh-34" style="rounded=0;whiteSpace=wrap;html=1;" value="1" vertex="1">
+          <mxGeometry height="30" width="20" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-30" parent="HEKw0fj0yyuxXM4w6teh-34" style="rounded=0;whiteSpace=wrap;html=1;" value="2" vertex="1">
+          <mxGeometry height="30" width="20" x="39" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-31" parent="HEKw0fj0yyuxXM4w6teh-34" style="rounded=0;whiteSpace=wrap;html=1;" value="3" vertex="1">
+          <mxGeometry height="30" width="20" x="68" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-32" parent="HEKw0fj0yyuxXM4w6teh-34" style="rounded=0;whiteSpace=wrap;html=1;" value="4" vertex="1">
+          <mxGeometry height="30" width="20" x="98" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-33" parent="HEKw0fj0yyuxXM4w6teh-34" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Grove 4-port Relay" vertex="1">
+          <mxGeometry height="20" width="115" x="7.5" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="HEKw0fj0yyuxXM4w6teh-36" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#3333FF;" value="Water sensor" vertex="1">
+          <mxGeometry height="40" width="80" x="530" y="610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
