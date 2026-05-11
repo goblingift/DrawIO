@@ -320,6 +320,15 @@
         <mxCell id="HEKw0fj0yyuxXM4w6teh-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Grove 4-port Relay" vertex="1">
           <mxGeometry height="20" width="115" x="213.5" y="505" as="geometry" />
         </mxCell>
+        <mxCell id="GwKpGH_hgKTXLisoy5S9-19" edge="1" parent="1" source="GwKpGH_hgKTXLisoy5S9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="_WY62SbQFsqZwHokVdYi-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GwKpGH_hgKTXLisoy5S9-18" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Electronics_Outline_24-2589/kitchen_scale_food_scale_weighing_scale_weight_machine_weight_scale-680.svg" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="607.5" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GwKpGH_hgKTXLisoy5S9-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Load cell" vertex="1">
+          <mxGeometry height="30" width="60" x="595" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
