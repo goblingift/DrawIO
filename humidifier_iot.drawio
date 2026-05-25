@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="uF_jSjCkj8HgzR_saIAF">
-    <mxGraphModel>
+    <mxGraphModel dx="574" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-1" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="270" width="150" x="140" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="10" width="150" x="140" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="155" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-7" edge="1" parent="1" source="zeI6JIOSnC2TfxbJctPe-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;endArrow=baseDash;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="271" />
+              <mxPoint x="330" y="271" />
+              <mxPoint x="330" y="250" />
+            </Array>
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="W&lt;div&gt;a&lt;/div&gt;&lt;div&gt;t&lt;/div&gt;&lt;div&gt;e&lt;/div&gt;&lt;div&gt;r&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;l&lt;/div&gt;&lt;div&gt;e&lt;/div&gt;&lt;div&gt;v&lt;/div&gt;&lt;div&gt;e&lt;/div&gt;&lt;div&gt;l&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;s&lt;/div&gt;&lt;div&gt;e&lt;/div&gt;&lt;div&gt;n&lt;/div&gt;&lt;div&gt;s&lt;/div&gt;&lt;div&gt;o&lt;/div&gt;&lt;div&gt;r&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="25" x="256" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="C&lt;div&gt;o&lt;/div&gt;&lt;div&gt;t&lt;/div&gt;&lt;div&gt;t&lt;/div&gt;&lt;div&gt;o&lt;/div&gt;&lt;div&gt;n&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;f&lt;/div&gt;&lt;div&gt;a&lt;/div&gt;&lt;div&gt;b&lt;/div&gt;&lt;div&gt;r&lt;/div&gt;&lt;div&gt;i&lt;/div&gt;&lt;div&gt;c&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="30" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-9" parent="1" style="shape=or;whiteSpace=wrap;html=1;rotation=-90;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="80" width="29" x="201" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-13" edge="1" parent="1" source="zeI6JIOSnC2TfxbJctPe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="zeI6JIOSnC2TfxbJctPe-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="216" y="260" />
+              <mxPoint x="239" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Atomizer" vertex="1">
+          <mxGeometry height="30" width="60" x="185.5" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-14" edge="1" parent="1" source="zeI6JIOSnC2TfxbJctPe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=baseDash;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Grove Atomization Module" vertex="1">
+          <mxGeometry height="60" width="120" x="208.5" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zeI6JIOSnC2TfxbJctPe-15" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop" value="" vertex="1">
+          <mxGeometry height="40" width="20" x="160" y="540" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
