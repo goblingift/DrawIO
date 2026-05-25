@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="nX-R8twhEdbl5yGTxNnG">
-    <mxGraphModel dx="972" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1243" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,9 +82,6 @@
         <mxCell id="rOVqI_4ywPRq9WA-nOGE-23" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Bootstrap_Vol_2-2296/fan-593.svg;imageBorder=#FF0000;strokeWidth=3;" value="" vertex="1">
           <mxGeometry height="40" width="40" x="260" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="rOVqI_4ywPRq9WA-nOGE-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12V fan" vertex="1">
-          <mxGeometry height="30" width="60" x="1060" y="560" as="geometry" />
-        </mxCell>
         <mxCell id="rOVqI_4ywPRq9WA-nOGE-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12V heater" vertex="1">
           <mxGeometry height="30" width="70" x="300" y="380" as="geometry" />
         </mxCell>
@@ -95,7 +92,7 @@
           <mxGeometry height="34" width="34" x="56" y="486" as="geometry" />
         </mxCell>
         <mxCell id="rOVqI_4ywPRq9WA-nOGE-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12V LED" vertex="1">
-          <mxGeometry height="30" width="55" x="32.5" y="476" as="geometry" />
+          <mxGeometry height="30" width="55" x="45.5" y="460" as="geometry" />
         </mxCell>
         <mxCell id="rOVqI_4ywPRq9WA-nOGE-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Wooden plate" vertex="1">
           <mxGeometry height="20" width="230" x="40" y="580" as="geometry" />
@@ -111,6 +108,9 @@
         </mxCell>
         <mxCell id="rOVqI_4ywPRq9WA-nOGE-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Access door" vertex="1">
           <mxGeometry height="30" width="60" x="500" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="wzYdwWhx0oSGo_3WYaBU-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="130L chamber" vertex="1">
+          <mxGeometry height="30" width="82" x="437" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
