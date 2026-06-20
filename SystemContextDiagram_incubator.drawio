@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="NbTT-jmtgh7jLACGAgiX">
-    <mxGraphModel dx="1717" dy="1071" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="1112" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,10 +22,10 @@
         <mxCell id="tIgGN4ot6EIER7UMqH4O-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Edge Node" vertex="1">
           <mxGeometry height="30" width="90" x="35" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="tIgGN4ot6EIER7UMqH4O-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Server Node" vertex="1">
-          <mxGeometry height="30" width="100" x="240" y="20" as="geometry" />
+        <mxCell id="tIgGN4ot6EIER7UMqH4O-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Gateway Node" vertex="1">
+          <mxGeometry height="30" width="135" x="222" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="tIgGN4ot6EIER7UMqH4O-20" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="ESP32-S3&lt;div&gt;Proxy Node&lt;/div&gt;" vertex="1">
+        <mxCell id="tIgGN4ot6EIER7UMqH4O-20" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="ESP32-S3&lt;div&gt;Gateway Node&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="240" y="200" as="geometry" />
         </mxCell>
         <mxCell id="tIgGN4ot6EIER7UMqH4O-21" edge="1" parent="1" source="tIgGN4ot6EIER7UMqH4O-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=12 12;" target="tIgGN4ot6EIER7UMqH4O-20">
