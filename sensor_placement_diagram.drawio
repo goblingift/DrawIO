@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="nX-R8twhEdbl5yGTxNnG">
-    <mxGraphModel dx="574" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="561" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,6 +111,15 @@
         </mxCell>
         <mxCell id="wzYdwWhx0oSGo_3WYaBU-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="130L chamber" vertex="1">
           <mxGeometry height="30" width="82" x="437" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="MwTlpC1k0PWOJl1jhZnm-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="RTC" vertex="1">
+          <mxGeometry height="20" width="60" x="130" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="MwTlpC1k0PWOJl1jhZnm-2" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.antenna;network2IconYOffset=0.0004;network2IconW=0.508;network2IconH=0.9997;" value="" vertex="1">
+          <mxGeometry height="49.985" width="25.4" x="160" y="467.02" as="geometry" />
+        </mxCell>
+        <mxCell id="MwTlpC1k0PWOJl1jhZnm-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="LoRa Antenna" vertex="1">
+          <mxGeometry height="30" width="55" x="146.5" y="437.02" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
