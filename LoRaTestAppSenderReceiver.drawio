@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="bjN7r-0TmgPzobtFNQhD">
+    <mxGraphModel dx="764" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yJ5MUamjBtnibEPDD74B-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="esp32-lora-testapp-sender" vertex="1">
+          <mxGeometry height="640" width="320" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-3" parent="yJ5MUamjBtnibEPDD74B-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Set frequency, spreading factor, bandwidth, coding rate, transmit power" vertex="1">
+          <mxGeometry height="70" width="140" x="90" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-17" parent="yJ5MUamjBtnibEPDD74B-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="440" width="510" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-5" parent="yJ5MUamjBtnibEPDD74B-1" style="whiteSpace=wrap;html=1;rounded=0;" value="Send payload via LoRa" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-6" edge="1" parent="yJ5MUamjBtnibEPDD74B-1" source="yJ5MUamjBtnibEPDD74B-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yJ5MUamjBtnibEPDD74B-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-18" parent="yJ5MUamjBtnibEPDD74B-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Loop: 100x" vertex="1">
+          <mxGeometry height="30" width="80" x="73" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="esp32-lora-testapp-receiver" vertex="1">
+          <mxGeometry height="640" width="320" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-12" edge="1" parent="yJ5MUamjBtnibEPDD74B-2" source="yJ5MUamjBtnibEPDD74B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yJ5MUamjBtnibEPDD74B-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-4" parent="yJ5MUamjBtnibEPDD74B-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize LoRa radio, start listening" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-14" edge="1" parent="yJ5MUamjBtnibEPDD74B-2" source="yJ5MUamjBtnibEPDD74B-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yJ5MUamjBtnibEPDD74B-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-10" parent="yJ5MUamjBtnibEPDD74B-2" style="whiteSpace=wrap;html=1;rounded=0;" value="Receive packet" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-16" edge="1" parent="yJ5MUamjBtnibEPDD74B-2" source="yJ5MUamjBtnibEPDD74B-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yJ5MUamjBtnibEPDD74B-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-13" parent="yJ5MUamjBtnibEPDD74B-2" style="whiteSpace=wrap;html=1;rounded=0;" value="Validate payload" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-20" edge="1" parent="yJ5MUamjBtnibEPDD74B-2" source="yJ5MUamjBtnibEPDD74B-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yJ5MUamjBtnibEPDD74B-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-15" parent="yJ5MUamjBtnibEPDD74B-2" style="whiteSpace=wrap;html=1;rounded=0;" value="Extract RSSI/SNR from received message" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-19" parent="yJ5MUamjBtnibEPDD74B-2" style="whiteSpace=wrap;html=1;rounded=0;" value="Persist metrics in .CSV file" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ5MUamjBtnibEPDD74B-11" edge="1" parent="1" source="yJ5MUamjBtnibEPDD74B-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yJ5MUamjBtnibEPDD74B-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
