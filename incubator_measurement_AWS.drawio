@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Seite-1" id="XMSV-YThDUr547XQ716G">
-    <mxGraphModel dx="2355" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2934" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,40 +9,52 @@
             <mxGeometry height="1299" width="1697" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-38" parent="kot_b-PY2At3BUHgrd8_-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;opacity=20;strokeColor=#36393d;dashed=1;strokeWidth=1;perimeterSpacing=0;" value="" vertex="1">
+          <mxGeometry height="754.5" width="284.51" x="237.49" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-34" parent="kot_b-PY2At3BUHgrd8_-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;opacity=20;strokeColor=#36393d;dashed=1;strokeWidth=1;perimeterSpacing=0;" value="" vertex="1">
+          <mxGeometry height="290" width="214.51" x="9.490000000000002" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-35" parent="kot_b-PY2At3BUHgrd8_-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;opacity=20;strokeColor=#36393d;dashed=1;strokeWidth=1;perimeterSpacing=0;" value="" vertex="1">
+          <mxGeometry height="710" width="280" x="536" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-33" parent="kot_b-PY2At3BUHgrd8_-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;opacity=20;strokeColor=#36393d;dashed=1;strokeWidth=1;perimeterSpacing=0;" value="" vertex="1">
+          <mxGeometry height="350" width="560" x="137.74" y="10" as="geometry" />
+        </mxCell>
         <UserObject label="MQTT writes measurement" mermaidId="n:Start" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Sensor device writes measurement" id="kot_b-PY2At3BUHgrd8_-22">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="59" width="137.5" x="29.75" y="22" as="geometry" />
+            <mxGeometry height="59" width="137.5" x="147.49" y="22" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="incubator_measurement_raw" mermaidId="n:RawTable" mermaidBaseStyle="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="incubator_measurement_raw" id="kot_b-PY2At3BUHgrd8_-23">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="63" width="224" x="197.25" y="20" as="geometry" />
+            <mxGeometry height="63" width="224" x="314.99" y="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;b&gt;lambda:&lt;br&gt;&lt;/b&gt;lambda-cleanup-measurements" mermaidId="n:Cleanup" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="lambda-cleanup-measurements" id="kot_b-PY2At3BUHgrd8_-24">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="285" x="166.75" y="129" as="geometry" />
+            <mxGeometry height="54" width="285" x="284.49" y="129" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Fields valid?" mermaidId="n:Validate" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="All fields valid?" id="kot_b-PY2At3BUHgrd8_-25">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="70" width="138.5" x="240" y="209" as="geometry" />
+            <mxGeometry height="70" width="138.5" x="357.74" y="209" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-10" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D5gxx9GzuQt7P1bdcjK4-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="469" y="390" />
+              <mxPoint x="587" y="390" />
               <mxPoint x="661" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="incubator_measurement&lt;div&gt;_clean&lt;/div&gt;" mermaidId="n:CleanTable" mermaidBaseStyle="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="incubator_measurement_clean" id="kot_b-PY2At3BUHgrd8_-26">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="75" width="181.75" x="378.5" y="271.5" as="geometry" />
+            <mxGeometry height="75" width="181.75" x="496.24" y="271.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="D5gxx9GzuQt7P1bdcjK4-5" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-2.9;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="kot_b-PY2At3BUHgrd8_-75">
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-5" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="kot_b-PY2At3BUHgrd8_-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-6" connectable="0" parent="D5gxx9GzuQt7P1bdcjK4-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px;&quot;&gt;Read&lt;/font&gt;" vertex="1">
@@ -52,7 +64,7 @@
         </mxCell>
         <UserObject label="incubator_measurement&lt;div&gt;_rejected&lt;/div&gt;" mermaidId="n:RejectedTable" mermaidBaseStyle="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="incubator_measurement_rejected" id="kot_b-PY2At3BUHgrd8_-27">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="80" width="175.5" x="37.75" y="269" as="geometry" />
+            <mxGeometry height="80" width="175.5" x="155.49" y="269" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="kot_b-PY2At3BUHgrd8_-65" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-32">
@@ -63,48 +75,38 @@
             <mxGeometry height="54" width="242" x="266" y="419" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="kot_b-PY2At3BUHgrd8_-62" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-33">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="387" y="680" />
-              <mxPoint x="99" y="680" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-36" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Compare each measurement field&#xa;against configured min/max" mermaidId="n:CheckThresholds" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Compare each measurement field&#xa;against configured min/max" id="kot_b-PY2At3BUHgrd8_-32">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Arial;fontSize=16;" vertex="1">
             <mxGeometry height="83" width="195.5" x="289" y="513.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="kot_b-PY2At3BUHgrd8_-63" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-34">
+        <mxCell id="kot_b-PY2At3BUHgrd8_-63" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kot_b-PY2At3BUHgrd8_-64" connectable="0" parent="kot_b-PY2At3BUHgrd8_-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="NO" vertex="1">
           <mxGeometry relative="1" x="0.4584" y="-1" as="geometry">
-            <mxPoint x="1" y="-18" as="offset" />
+            <mxPoint x="20" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kot_b-PY2At3BUHgrd8_-71" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-69">
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-37" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-69">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kot_b-PY2At3BUHgrd8_-72" connectable="0" parent="kot_b-PY2At3BUHgrd8_-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;YES&lt;/font&gt;" vertex="1">
-          <mxGeometry relative="1" x="0.6043" as="geometry">
-            <mxPoint y="-13" as="offset" />
-          </mxGeometry>
         </mxCell>
         <UserObject label="Any field&#xa;out of range?" mermaidId="n:AnyViolation" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Any field&#xa;out of range?" id="kot_b-PY2At3BUHgrd8_-33">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="90" width="149.63" x="24.369999999999997" y="710" as="geometry" />
+            <mxGeometry height="90" width="149.63" x="311.37" y="698.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="No alert" mermaidId="n:EndOk" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="No alert" id="kot_b-PY2At3BUHgrd8_-34">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="39" width="82" x="57.5" y="850" as="geometry" />
+            <mxGeometry height="39" width="82" x="155.49" y="724" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="incubator_alerts" mermaidId="n:WriteAlert" mermaidBaseStyle="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="incubator_alerts" id="kot_b-PY2At3BUHgrd8_-35">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="67" width="133" x="370" y="836" as="geometry" />
+            <mxGeometry height="67" width="133" x="31.99" y="806.5" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="kot_b-PY2At3BUHgrd8_-66" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-37">
@@ -117,7 +119,7 @@
         </UserObject>
         <UserObject label="Notify subscribers&lt;div&gt;via email / SMS&lt;/div&gt;" mermaidId="n:Subscribers" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Email / SMS subscribers notified" id="kot_b-PY2At3BUHgrd8_-37">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="39" width="254" x="259.75" y="1100" as="geometry" />
+            <mxGeometry height="39" width="254" x="259.75" y="1080" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="DynamoDB Stream: INSERT" mermaidId="e:RawTable-&gt;Cleanup#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="DynamoDB Stream: INSERT" id="kot_b-PY2At3BUHgrd8_-39">
@@ -136,18 +138,22 @@
           </mxCell>
         </UserObject>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-27" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="kot_b-PY2At3BUHgrd8_-32">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="617" />
+              <mxPoint x="436" y="617" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-28" connectable="0" parent="D5gxx9GzuQt7P1bdcjK4-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 14px;&quot;&gt;Read&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.5191" y="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-18" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-29" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="D5gxx9GzuQt7P1bdcjK4-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="437" y="800" />
-              <mxPoint x="530" y="800" />
+              <mxPoint x="530" y="699" />
               <mxPoint x="530" y="924" />
             </Array>
           </mxGeometry>
@@ -159,7 +165,7 @@
         </mxCell>
         <UserObject label="incubator_settings" mermaidId="n:SettingsTable" mermaidBaseStyle="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="incubator_settings" id="kot_b-PY2At3BUHgrd8_-5">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="67" width="148" x="362.5" y="721.5" as="geometry" />
+            <mxGeometry height="67" width="148" x="460" y="631.5" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="kot_b-PY2At3BUHgrd8_-56" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Arial;" target="kot_b-PY2At3BUHgrd8_-27">
@@ -182,9 +188,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kot_b-PY2At3BUHgrd8_-69" parent="kot_b-PY2At3BUHgrd8_-1" style="whiteSpace=wrap;html=1;fontSize=16;fontFamily=Arial;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);strokeWidth=1;" value="Write in alert history table" vertex="1">
-          <mxGeometry height="60" width="120" x="188" y="839.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="326.19" y="810" as="geometry" />
         </mxCell>
-        <mxCell id="kot_b-PY2At3BUHgrd8_-73" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="kot_b-PY2At3BUHgrd8_-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Write&lt;/font&gt;">
+        <mxCell id="kot_b-PY2At3BUHgrd8_-73" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="kot_b-PY2At3BUHgrd8_-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Write&lt;/font&gt;">
           <mxGeometry relative="1" x="0.0323" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="500" y="940" as="targetPoint" />
@@ -195,7 +201,7 @@
         </mxCell>
         <UserObject label="&lt;b&gt;lambda:&lt;br&gt;&lt;/b&gt;incubator-measurements-rejected-alert" mermaidId="n:AlertLambda" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="incubator-threshold-alert" id="kot_b-PY2At3BUHgrd8_-75">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="61" width="190" x="30.5" y="419" as="geometry" />
+            <mxGeometry height="61" width="190" x="20.5" y="419" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-8" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-78">
@@ -203,19 +209,19 @@
         </mxCell>
         <UserObject label="&lt;b&gt;SNS:&lt;br&gt;&lt;/b&gt;incubator-measurement-&lt;br&gt;rejected" mermaidId="n:PublishSns" mermaidBaseStyle="html=1;strokeWidth=1;shape=process;whiteSpace=wrap;size=0.04;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="SNS: incubator-measurement-&#xa;outside-allowed-range" id="kot_b-PY2At3BUHgrd8_-77">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;strokeWidth=1;shape=process;whiteSpace=wrap;size=0.04;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="59" width="202.25" x="24.37" y="513.5" as="geometry" />
+            <mxGeometry height="59" width="202.25" x="14.370000000000001" y="513.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Notify subscribers&lt;div&gt;via email&lt;/div&gt;" mermaidId="n:Subscribers" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Email / SMS subscribers notified" id="kot_b-PY2At3BUHgrd8_-78">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Arial;fontSize=16;" vertex="1">
-            <mxGeometry height="39" width="170.25" x="40.37" y="610" as="geometry" />
+            <mxGeometry height="39" width="170.25" x="30.369999999999997" y="610" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-1" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="kot_b-PY2At3BUHgrd8_-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-4" parent="kot_b-PY2At3BUHgrd8_-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Scheduler.svg;" value="" vertex="1">
-          <mxGeometry height="60" width="60" x="29.75" y="369" as="geometry" />
+          <mxGeometry height="60" width="60" x="-1.7763568394002505e-15" y="370" as="geometry" />
         </mxCell>
         <UserObject label="&lt;b&gt;lambda:&lt;br&gt;&lt;/b&gt;incubator-light-rollup" mermaidId="n:AlertLambda" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="incubator-threshold-alert" id="D5gxx9GzuQt7P1bdcjK4-9">
           <mxCell parent="kot_b-PY2At3BUHgrd8_-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Arial;fontSize=16;" vertex="1">
@@ -223,11 +229,11 @@
           </mxCell>
         </UserObject>
         <UserObject label="DynamoDB Stream: INSERT" mermaidId="e:CleanTable-&gt;AlertLambda#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="DynamoDB Stream: INSERT/MODIFY" id="D5gxx9GzuQt7P1bdcjK4-11">
-          <mxCell edge="1" parent="kot_b-PY2At3BUHgrd8_-1" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E8,#2a2a2a);fontFamily=Arial;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-29">
-            <mxGeometry relative="1" x="-0.7983" y="51" as="geometry">
-              <mxPoint x="50" y="-51" as="offset" />
+          <mxCell edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="kot_b-PY2At3BUHgrd8_-26" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E8,#2a2a2a);fontFamily=Arial;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" target="kot_b-PY2At3BUHgrd8_-29">
+            <mxGeometry relative="1" x="-0.189" as="geometry">
+              <mxPoint as="offset" />
               <Array as="points">
-                <mxPoint x="469" y="390" />
+                <mxPoint x="587" y="390" />
                 <mxPoint x="387" y="390" />
               </Array>
               <mxPoint x="469.375" y="377.5" as="sourcePoint" />
@@ -270,7 +276,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-19" parent="kot_b-PY2At3BUHgrd8_-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Scheduler.svg;" value="" vertex="1">
-          <mxGeometry height="60" width="60" x="565.62" y="718.5" as="geometry" />
+          <mxGeometry height="60" width="60" x="548" y="717.25" as="geometry" />
         </mxCell>
         <mxCell id="D5gxx9GzuQt7P1bdcjK4-23" edge="1" parent="kot_b-PY2At3BUHgrd8_-1" source="D5gxx9GzuQt7P1bdcjK4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D5gxx9GzuQt7P1bdcjK4-22">
           <mxGeometry relative="1" as="geometry" />
@@ -299,6 +305,18 @@
             <mxGeometry height="80" width="138.5" x="642.25" y="990" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-41" parent="kot_b-PY2At3BUHgrd8_-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;A&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="35" width="35" x="643.5" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-42" parent="kot_b-PY2At3BUHgrd8_-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;B&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="35" width="35" x="68" y="373" as="geometry" />
+        </mxCell>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-43" parent="kot_b-PY2At3BUHgrd8_-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;C&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="36" width="37" x="274.37" y="374.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D5gxx9GzuQt7P1bdcjK4-111" parent="kot_b-PY2At3BUHgrd8_-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;font face=&quot;Arial&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;D&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="35" width="35" x="769.75" y="375.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
