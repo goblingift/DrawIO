@@ -78,6 +78,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="vBUadfPbeuTg9g9GGORD-1" connectable="0" parent="nMDnFYbi9WBwVvrRRswp-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="LoRa" vertex="1">
+          <mxGeometry relative="1" x="-0.1043" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nMDnFYbi9WBwVvrRRswp-11" parent="77e6c97f196da883-3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Startup&lt;div&gt;device&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="70" x="-127.5" y="220" as="geometry" />
         </mxCell>
@@ -120,9 +125,9 @@
         <mxCell id="nMDnFYbi9WBwVvrRRswp-4" edge="1" parent="77e6c97f196da883-1" source="nMDnFYbi9WBwVvrRRswp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nMDnFYbi9WBwVvrRRswp-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nMDnFYbi9WBwVvrRRswp-5" connectable="0" parent="nMDnFYbi9WBwVvrRRswp-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET" vertex="1">
+        <mxCell id="nMDnFYbi9WBwVvrRRswp-5" connectable="0" parent="nMDnFYbi9WBwVvrRRswp-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET/&lt;div&gt;HTTPS&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.4418" y="2" as="geometry">
-            <mxPoint x="7" y="2" as="offset" />
+            <mxPoint x="12" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nMDnFYbi9WBwVvrRRswp-10" edge="1" parent="77e6c97f196da883-1" source="nMDnFYbi9WBwVvrRRswp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nMDnFYbi9WBwVvrRRswp-9" value="">
