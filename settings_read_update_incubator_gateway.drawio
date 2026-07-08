@@ -12,17 +12,17 @@
         <mxCell id="77e6c97f196da883-2" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;" value="ESP32 Incubator" vertex="1">
           <mxGeometry height="820" width="160" y="20" as="geometry" />
         </mxCell>
+        <mxCell id="nMDnFYbi9WBwVvrRRswp-11" parent="77e6c97f196da883-2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="On Startup&lt;div&gt;device&lt;/div&gt;&lt;div&gt;&amp;amp; every&lt;/div&gt;&lt;div&gt;15 min.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="75" x="30" y="216.25" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-3" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;" value="ESP32 Gateway" vertex="1">
           <mxGeometry height="820" width="160" x="160" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="nMDnFYbi9WBwVvrRRswp-2" parent="77e6c97f196da883-3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Startup&lt;div&gt;device&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="70" x="45" y="40" as="geometry" />
+        <mxCell id="nMDnFYbi9WBwVvrRRswp-2" parent="77e6c97f196da883-3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="On Startup&lt;div&gt;device&lt;/div&gt;&lt;div&gt;&amp;amp; every&lt;/div&gt;&lt;div&gt;15 min.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="75" x="42.5" y="37.5" as="geometry" />
         </mxCell>
         <mxCell id="nMDnFYbi9WBwVvrRRswp-9" parent="77e6c97f196da883-3" style="whiteSpace=wrap;html=1;rounded=0;" value="Save settings in internal storage" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="nMDnFYbi9WBwVvrRRswp-13" edge="1" parent="77e6c97f196da883-3" source="nMDnFYbi9WBwVvrRRswp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nMDnFYbi9WBwVvrRRswp-12" value="">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nMDnFYbi9WBwVvrRRswp-30" edge="1" parent="77e6c97f196da883-3" source="nMDnFYbi9WBwVvrRRswp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nMDnFYbi9WBwVvrRRswp-29" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -83,9 +83,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nMDnFYbi9WBwVvrRRswp-11" parent="77e6c97f196da883-3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Startup&lt;div&gt;device&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="70" x="-127.5" y="220" as="geometry" />
-        </mxCell>
         <mxCell id="nMDnFYbi9WBwVvrRRswp-12" parent="77e6c97f196da883-3" style="whiteSpace=wrap;html=1;" value="Send encrypted LoRa message with settings-hash and device-id" vertex="1">
           <mxGeometry height="60" width="120" x="-152.5" y="330" as="geometry" />
         </mxCell>
@@ -131,6 +128,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nMDnFYbi9WBwVvrRRswp-10" edge="1" parent="77e6c97f196da883-1" source="nMDnFYbi9WBwVvrRRswp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nMDnFYbi9WBwVvrRRswp-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMDnFYbi9WBwVvrRRswp-13" edge="1" parent="77e6c97f196da883-1" source="nMDnFYbi9WBwVvrRRswp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nMDnFYbi9WBwVvrRRswp-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
