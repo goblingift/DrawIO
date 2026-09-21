@@ -9,58 +9,58 @@
             <mxRectangle height="40" width="50" x="70" y="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77e6c97f196da883-2" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;" value="ESP32 Sensor Node" vertex="1">
+        <mxCell id="77e6c97f196da883-2" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="ESP32 Sensor Node" vertex="1">
           <mxGeometry height="670" width="160" y="20" as="geometry" />
         </mxCell>
         <mxCell id="x3GyVdyDVFISziQxTMZg-3" edge="1" parent="77e6c97f196da883-2" source="x3GyVdyDVFISziQxTMZg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x3GyVdyDVFISziQxTMZg-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x3GyVdyDVFISziQxTMZg-1" parent="77e6c97f196da883-2" style="whiteSpace=wrap;html=1;" value="Read sensor values&lt;br&gt;(6 times)" vertex="1">
+        <mxCell id="x3GyVdyDVFISziQxTMZg-1" parent="77e6c97f196da883-2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Read sensor values&lt;br&gt;(6 times)" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="nMDnFYbi9WBwVvrRRswp-12" parent="77e6c97f196da883-2" style="whiteSpace=wrap;html=1;" value="Submit sensor values via LoRa" vertex="1">
+        <mxCell id="nMDnFYbi9WBwVvrRRswp-12" parent="77e6c97f196da883-2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Submit sensor values via LoRa" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="220" as="geometry" />
         </mxCell>
         <mxCell id="x3GyVdyDVFISziQxTMZg-6" edge="1" parent="77e6c97f196da883-2" source="x3GyVdyDVFISziQxTMZg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nMDnFYbi9WBwVvrRRswp-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x3GyVdyDVFISziQxTMZg-2" parent="77e6c97f196da883-2" style="whiteSpace=wrap;html=1;" value="Encrypt sensor values" vertex="1">
+        <mxCell id="x3GyVdyDVFISziQxTMZg-2" parent="77e6c97f196da883-2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Encrypt sensor values" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-3" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;" value="ESP32 Gateway Node" vertex="1">
+        <mxCell id="77e6c97f196da883-3" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" value="ESP32 Gateway Node" vertex="1">
           <mxGeometry height="670" width="160" x="160" y="20" as="geometry" />
         </mxCell>
         <mxCell id="x3GyVdyDVFISziQxTMZg-5" edge="1" parent="77e6c97f196da883-3" source="nMDnFYbi9WBwVvrRRswp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="x3GyVdyDVFISziQxTMZg-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nMDnFYbi9WBwVvrRRswp-14" parent="77e6c97f196da883-3" style="whiteSpace=wrap;html=1;" value="Receive and decrypt LoRa message" vertex="1">
+        <mxCell id="nMDnFYbi9WBwVvrRRswp-14" parent="77e6c97f196da883-3" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Receive and decrypt LoRa message" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="x3GyVdyDVFISziQxTMZg-4" parent="77e6c97f196da883-3" style="whiteSpace=wrap;html=1;" value="Submit sensor values as JSON to AWS (MQTT)" vertex="1">
+        <mxCell id="x3GyVdyDVFISziQxTMZg-4" parent="77e6c97f196da883-3" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Submit sensor values as JSON to AWS (MQTT)" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-4" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;" value="AWS Cloud" vertex="1">
+        <mxCell id="77e6c97f196da883-4" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="AWS Cloud" vertex="1">
           <mxGeometry height="670" width="160" x="320" y="20" as="geometry" />
         </mxCell>
         <mxCell id="x3GyVdyDVFISziQxTMZg-11" edge="1" parent="77e6c97f196da883-4" source="x3GyVdyDVFISziQxTMZg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="x3GyVdyDVFISziQxTMZg-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x3GyVdyDVFISziQxTMZg-7" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;" value="Receive new sensor readings" vertex="1">
+        <mxCell id="x3GyVdyDVFISziQxTMZg-7" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Receive new sensor readings" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="310" as="geometry" />
         </mxCell>
         <mxCell id="x3GyVdyDVFISziQxTMZg-13" edge="1" parent="77e6c97f196da883-4" source="x3GyVdyDVFISziQxTMZg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="x3GyVdyDVFISziQxTMZg-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x3GyVdyDVFISziQxTMZg-10" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;" value="Data cleansing" vertex="1">
+        <mxCell id="x3GyVdyDVFISziQxTMZg-10" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Data cleansing" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="400" as="geometry" />
         </mxCell>
         <mxCell id="x3GyVdyDVFISziQxTMZg-15" edge="1" parent="77e6c97f196da883-4" source="x3GyVdyDVFISziQxTMZg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="x3GyVdyDVFISziQxTMZg-14" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x3GyVdyDVFISziQxTMZg-12" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;" value="Storing of data" vertex="1">
+        <mxCell id="x3GyVdyDVFISziQxTMZg-12" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Storing of data" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="x3GyVdyDVFISziQxTMZg-14" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;" value="Processing of data" vertex="1">
+        <mxCell id="x3GyVdyDVFISziQxTMZg-14" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Processing of data" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="580" as="geometry" />
         </mxCell>
         <mxCell id="nMDnFYbi9WBwVvrRRswp-15" edge="1" parent="77e6c97f196da883-1" source="nMDnFYbi9WBwVvrRRswp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nMDnFYbi9WBwVvrRRswp-14" value="">
